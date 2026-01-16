@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814dbf5f-499a-4350-a5dd-cf458f719cc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MergeWithOutConflict/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prog-str-2E-AlexisArriola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prog-str-2E-AlexisArriola.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-01-hola-mundo/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="814dbf5f-499a-4350-a5dd-cf458f719cc6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +65,7 @@
       <updated>1768527538680</updated>
       <workItem from="1768527540530" duration="137000" />
       <workItem from="1768527907017" duration="217000" />
-      <workItem from="1768528155523" duration="754000" />
+      <workItem from="1768528155523" duration="1209000" />
     </task>
     <servers />
   </component>
