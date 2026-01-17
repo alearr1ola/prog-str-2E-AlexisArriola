@@ -21,7 +21,7 @@ public class Main {
 
             switch (OpcionDelMenu) {
                 case 1:
-                    System.out.print("Ingresa tu peso kg: ");
+                    System.out.print("Ingresa tu peso en kg: ");
                     double peso = scanner.nextDouble();
                     System.out.print("Ingresa tu altura en m: ");
                     double altura = scanner.nextDouble();

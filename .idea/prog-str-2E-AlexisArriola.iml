@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/MergeWithConflict" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MergeWithOutConflict" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proyecto-01-hola-mundo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ActividadBuenasPracticas" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
