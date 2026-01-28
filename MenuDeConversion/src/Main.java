@@ -2,13 +2,10 @@ package menu;
 
 import java.util.Scanner;
 
-public class Main{
-
+public class Main {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-        int opcionMenu;
-
+        int opcionMenu = 0;
         int contadorCelsiusAFahrenheit = 0;
         int contadorFahrenheitACelsius = 0;
         int contadorKmAMillas = 0;
@@ -16,12 +13,27 @@ public class Main{
         int totalConversiones = 0;
 
         do {
-            System.out.println("1) Celsius a Fahrenheit");
-            System.out.println("2) Fahrenheit a Celsius");
-            System.out.println("3) Kilómetros a Millas");
-            System.out.println("4) Millas a Kilómetros");
-            System.out.println("5) Salir");
-            opcionMenu = obtenerOpcionMenuValida(scanner);
+            System.out.println("1. Celsius a Fahrenheit");
+            System.out.println("2. Fahrenheit a Celsius");
+            System.out.println("3. Kilómetros a Millas");
+            System.out.println("4. Millas a Kilómetros");
+            System.out.println("5. Salir");
+
+            while (true) {
+                System.out.print("Selecciona una opción 1-5: ");
+                if (scanner.hasNextInt()) {
+                    opcionMenu = scanner.nextInt();
+                    if (opcionMenu >= 1 && opcionMenu <= 5) {
+                        break;
+                    } else {
+                        System.out.println("La opción debe estar entre 1 y 5");
+                    }
+                } else {
+                    System.out.println("No ingresaste un valor numerico");
+                    scanner.next();
+                }
+            }
+
             switch (opcionMenu) {
 
                 case 1:
@@ -70,24 +82,7 @@ public class Main{
         scanner.close();
     }
 
-    public static int obtenerOpcionMenuValida(Scanner scanner) {
-        int opcionIngresada;
-        while (true) {
-            System.out.print("Selecciona una opción 1-5: ");
-            if (scanner.hasNextInt()) {
-                opcionIngresada = scanner.nextInt();
-                if (opcionIngresada >= 1 && opcionIngresada <= 5) {
-                    return opcionIngresada;
-                }
-                System.out.println("La opción debe estar entre 1 y 5");
-            } else {
-                System.out.println("No ingresaste un valor numerico");
-                scanner.next();
-            }
-        }
-    }
-
-    public static double obtenerNumeroDecimalValido(Scanner scanner, String mensaje) {
+     public static double obtenerNumeroDecimalValido(Scanner scanner, String mensaje) {
         double numeroIngresado;
         while (true) {
             System.out.println(mensaje);
