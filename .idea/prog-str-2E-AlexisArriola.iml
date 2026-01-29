@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ControlIfElseAlexisArriola" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ControlSwitchAlexisArriola" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MenuDeConversion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AdivinaElNumero" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
