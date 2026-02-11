@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/AdivinaElNumero" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CotizadorEnvioClase" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ControlDeCalificaciones" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CrudSimpleDePersonas" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
