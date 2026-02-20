@@ -18,6 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ControlDeCalificaciones" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CrudSimpleDePersonas" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AdministracionDeAlumnos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/U3_EjemploDelProfe" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
